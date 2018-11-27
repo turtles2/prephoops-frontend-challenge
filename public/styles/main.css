@@ -1,7 +1,7 @@
-@import "fonts.css";
+@import 'fonts.css';
 
 body {
-  background: #ec008c;
+  background: #f76517;
   color: #fff;
 }
 
@@ -12,7 +12,7 @@ h1 {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0;
-  font: 20vmin/1 HUGEAvantGardeBold;
+  font: 20vmin/1 PrepHoopsAvantGardeBold;
   letter-spacing: -0.06em;
   text-align: center;
 }
