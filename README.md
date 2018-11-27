@@ -6,7 +6,7 @@ This exercise will have the candidate build a responsive site navigation driven 
 
 Here are the guidelines for this exercise
 
--   No frameworks.
+-   No restrictions on frameworks, but we do use React.
 -   Chrome compliance is all that's required, all functions and features available in Chrome are in play.
 -   Nav must be responsive.
 
@@ -57,7 +57,7 @@ npm start
 
 ### Color
 
--   **Magenta** #ec008c
+-   **Orange** #f76517
 -   **Light Gray** #eee
 -   **Translucent Black** rgba(0, 0, 0, 0.5)
 
@@ -69,12 +69,12 @@ Measurements are specified in pixels. Dimensions are fluid unless specified.
 
 #### Desktop
 
--   On hover, Primary Navigation reverses color (white/magenta).
+-   On hover, Primary Navigation reverses color (white/orange).
 -   On click, if item contains a URL, Primary Navigation navigates to a new page.
 -   On click, if item contains other items, Secondary Navigation appears (see Desktop, Secondary Navigation).
 -   Menu appears containing Secondary Navigation.
 -   Translucent mask appears over content, behind menu.
--   On hover in, Secondary Navigation changes color (magenta/light gray).
+-   On hover in, Secondary Navigation changes color (orange/light gray).
 -   On click, Secondary navigates to a new page.
 -   On click outside of menu, menu and mask are hidden.
 
@@ -85,10 +85,10 @@ Measurements are specified in pixels. Dimensions are fluid unless specified.
 -   The open navigation icon should change to the close navigation icon (“x”).
 -   Translucent mask appears over content, right of navigation.
 -   The Primary Navigation should include link items and menu items.
--   When a user hovers a Primary Navigation item, it should change color (magenta/light gray).
+-   When a user hovers a Primary Navigation item, it should change color (orange/light gray).
 -   When a user clicks a Primary Navigation link item, the browser should navigate to a new page.
 -   When a user clicks a Primary Navigation menu item, the Secondary Navigation should “push” down, the chevron should rotate \* 180°.
--   When a user hovers a Secondary Navigation item, it should change color (magenta/light gray).
+-   When a user hovers a Secondary Navigation item, it should change color (orange/light gray).
 -   When a user clicks a Secondary Navigation item, browser should navigate to a new page.
 -   When a user clicks outside of the navigation, the navigation should close.
 -   When the navigation closes:
